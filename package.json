@@ -1,0 +1,19 @@
+{
+  "name": "alfred-tpb",
+  "version": "1.0.0",
+  "description": "Browse torrents from The Pirate Bay",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.7.0",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "moment": "^2.22.2",
+    "ramda": "^0.25.0"
+  }
+}
